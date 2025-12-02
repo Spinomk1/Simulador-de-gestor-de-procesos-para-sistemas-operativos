@@ -5,14 +5,12 @@ except ImportError:
     print("Error: tkinter no está disponible")
     exit(1)
 
-from Proyecto_Final_SO.config import Config
-from planificador import Scheduler
+from config import Config
+from nucleo_procesos import Process, Scheduler, SimulationController
 from administrador_recursos import ResourceManager
-from simulacion_control import SimulationController
-from proceso import Process
-
 
 class ProcessSchedulerGUI:
+
 
     def __init__(self, root):
         self.root = root

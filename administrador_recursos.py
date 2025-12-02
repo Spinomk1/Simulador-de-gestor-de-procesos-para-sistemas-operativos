@@ -1,3 +1,4 @@
+
 class ResourceManager:
 
     def __init__(self, num_cpus=1, total_memory=4096):
